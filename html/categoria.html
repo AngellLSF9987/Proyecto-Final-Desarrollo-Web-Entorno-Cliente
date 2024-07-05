@@ -16,44 +16,44 @@
     <script src="../js/categoria.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.popup.css" />
-    <title>Asociación Deportiva CESUR</title>
+    <title>Asociación Deportiva</title>
 
 </head>
 
 <body>
     <header>
         <div>
-            <img src="../img/escudoCesur.png" name="logo" id="logo">
+            <img src="../img/escudo.png" name="logo" id="logo">
         </div>
         <div>
             <img src="../img/titulo.png" name="titulo" id="titulo">
         </div>
         <div class="container">
-                <div class="calendar">
-                    <div class="pre_info">
-                        <div class="calen_info">
-                            <div id="mesPrev"><img src="../img/calendario.png"></div>
-                            <div id="mes"></div>
-                            <p>-</p>
-                            <div id="anio"></div>
-                            <div id="mesPost"><img src="../img/calendario.png"></div>
-                        </div>
-                    </div>
-                    <div class="calen_semana">
-                        <div class="calen_item">Lunes</div>
-                        <div class="calen_item">Martes</div>
-                        <div class="calen_item">Miercoles</div>
-                        <div class="calen_item">Jueves</div>
-                        <div class="calen_item">Viernes</div>
-                        <div class="calen_item">Sabado</div>
-                        <div class="calen_item">Domingo</div>
+            <div class="calendar">
+                <div class="pre_info">
+                    <div class="calen_info">
+                        <div id="mesPrev"><img src="../img/calendario.png"></div>
+                        <div id="mes"></div>
+                        <p>-</p>
+                        <div id="anio"></div>
+                        <div id="mesPost"><img src="../img/calendario.png"></div>
                     </div>
                 </div>
-                <div class="calen_fecha" id="dias">
+                <div class="calen_semana">
+                    <div class="calen_item">Lunes</div>
+                    <div class="calen_item">Martes</div>
+                    <div class="calen_item">Miercoles</div>
+                    <div class="calen_item">Jueves</div>
+                    <div class="calen_item">Viernes</div>
+                    <div class="calen_item">Sabado</div>
+                    <div class="calen_item">Domingo</div>
                 </div>
+            </div>
+            <div class="calen_fecha" id="dias">
+            </div>
         </div>
 
-            <script src="../js/calendario.js"></script>          
+        <script src="../js/calendario.js"></script>
     </header>
     <nav class="navSuperior">
         <ul>
@@ -70,23 +70,30 @@
                 <img src="../img/titulo.png" name="titulo" id="titulo">
                 <img src="../img/escudo-popup.png">
             </div>
-        </div>   
+        </div>
         <aside class="asideL">
             <ul>
                 <li>Categoría</li>
-                <a href="fcmax.html"><li>FCmax</li></a>
-                <a href="horario.html"><li>Horario</li></a>
-                <a href="imc.html"><li>IMC</li></a>
+                <a href="fcmax.html">
+                    <li>FCmax</li>
+                </a>
+                <a href="horario.html">
+                    <li>Horario</li>
+                </a>
+                <a href="imc.html">
+                    <li>IMC</li>
+                </a>
                 <a href="pinturitas.html">
                     <li>Juego Pinturitas</li>
                 </a>
             </ul>
         </aside>
-        <section>  
-            <h2>Categorías</h2><hr><br>
+        <section>
+            <h2>Categorías</h2>
+            <hr><br>
             <div class="form">
                 <div>
-                    <label for ="edad">Introduzca su edad: </label>
+                    <label for="edad">Introduzca su edad: </label>
                     <input type="number" id="edad" size="10">
                     <button onclick="getElementById('categoria').innerHTML=categoria()">Buscar</button>
                 </div>
@@ -105,12 +112,11 @@
     <footer>
         <nav class="navFooter">
             <ul>
-                <li>ASOCIACION DEPORTIVA CESUR</li>               
-                    <ul class="ul">
-                        <li>DESARROLLADORES:
-                        <li>ANGEL LUIS SAORIN FAURA</li>
-                        <li>FERNANDO CARRASCO MATEOS</li>
-                    </ul>
+                <li>ASOCIACION DEPORTIVA</li>
+                <ul class="ul">
+                    <li>DESARROLLO REALIZADO POR:
+                    <li>ANGEL LUIS SAORIN FAURA</li>
+                </ul>
                 </li>
                 <li><a href="aviso.html">AVISO LEGAL</a></li>
             </ul>

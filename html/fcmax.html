@@ -16,45 +16,45 @@
     <script src="../js/fcmax.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.footer.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.popup.css" /> 
-    <title>Asociación Deportiva CESUR</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.popup.css" />
+    <title>Asociación Deportiva</title>
 
 </head>
 
 <body>
     <header>
         <div>
-            <img src="../img/escudoCesur.png" name="logo" id="logo">
+            <img src="../img/escudo.png" name="logo" id="logo">
         </div>
         <div>
             <img src="../img/titulo.png" name="titulo" id="titulo">
         </div>
         <div class="container">
-                <div class="calendar">
-                    <div class="pre_info">
-                        <div class="calen_info">
-                            <div id="mesPrev"><img src="../img/calendario.png"></div>
-                            <div id="mes"></div>
-                            <p>-</p>
-                            <div id="anio"></div>
-                            <div id="mesPost"><img src="../img/calendario.png"></div>
-                        </div>
-                    </div>
-                    <div class="calen_semana">
-                        <div class="calen_item">Lunes</div>
-                        <div class="calen_item">Martes</div>
-                        <div class="calen_item">Miercoles</div>
-                        <div class="calen_item">Jueves</div>
-                        <div class="calen_item">Viernes</div>
-                        <div class="calen_item">Sabado</div>
-                        <div class="calen_item">Domingo</div>
+            <div class="calendar">
+                <div class="pre_info">
+                    <div class="calen_info">
+                        <div id="mesPrev"><img src="../img/calendario.png"></div>
+                        <div id="mes"></div>
+                        <p>-</p>
+                        <div id="anio"></div>
+                        <div id="mesPost"><img src="../img/calendario.png"></div>
                     </div>
                 </div>
-                <div class="calen_fecha" id="dias">
+                <div class="calen_semana">
+                    <div class="calen_item">Lunes</div>
+                    <div class="calen_item">Martes</div>
+                    <div class="calen_item">Miercoles</div>
+                    <div class="calen_item">Jueves</div>
+                    <div class="calen_item">Viernes</div>
+                    <div class="calen_item">Sabado</div>
+                    <div class="calen_item">Domingo</div>
                 </div>
+            </div>
+            <div class="calen_fecha" id="dias">
+            </div>
         </div>
 
-            <script src="../js/calendario.js"></script>          
+        <script src="../js/calendario.js"></script>
     </header>
     <nav class="navSuperior">
         <ul>
@@ -71,50 +71,56 @@
                 <img src="../img/titulo.png" name="titulo" id="titulo">
                 <img src="../img/escudo-popup.png">
             </div>
-        </div>   
+        </div>
         <aside class="asideL">
             <ul>
-                <a href="categoria.html"><li>Categoría</li></a>
+                <a href="categoria.html">
+                    <li>Categoría</li>
+                </a>
                 <li>FCmax</li>
-                <a href="horario.html"><li>Horario</li></a>
-                <a href="imc.html"><li>IMC</li></a>
+                <a href="horario.html">
+                    <li>Horario</li>
+                </a>
+                <a href="imc.html">
+                    <li>IMC</li>
+                </a>
                 <a href="pinturitas.html">
                     <li>Juego Pinturitas</li>
                 </a>
             </ul>
         </aside>
-        <section>  
-            <h2>FC Máxima</h2><hr><br>
+        <section>
+            <h2>FC Máxima</h2>
+            <hr><br>
             <div class="form">
                 <div>
-                    <label for ="edad">Introduzca su edad: </label><br>
+                    <label for="edad">Introduzca su edad: </label><br>
                     <input type="number" id="edad">
                     <br><br>
-                    <label for ="sexo">Introduzca su sexo: </label><br>
+                    <label for="sexo">Introduzca su sexo: </label><br>
                     <input type="text" id="sexo"><br><br>
                     <button onclick="getElementById('fcmax').innerHTML=fcmax()">Calcular</button>
                 </div>
                 <br>
                 <div>
-                    <p id="fcmax"></p>   
+                    <p id="fcmax"></p>
                 </div>
             </div>
         </section>
 
-    <aside class="asideR">
+        <aside class="asideR">
 
-    </aside>
+        </aside>
 
     </main>
     <footer>
         <nav class="navFooter">
             <ul>
-                <li>ASOCIACION DEPORTIVA CESUR</li>               
-                    <ul class="ul">
-                        <li>DESARROLLADORES:
-                        <li>ANGEL LUIS SAORIN FAURA</li>
-                        <li>FERNANDO CARRASCO MATEOS</li>
-                    </ul>
+                <li>ASOCIACION DEPORTIVA</li>
+                <ul class="ul">
+                    <li>DESARROLLO REALIZADO POR:
+                    <li>ANGEL LUIS SAORIN FAURA</li>
+                </ul>
                 </li>
                 <li><a href="aviso.html">AVISO LEGAL</a></li>
             </ul>
