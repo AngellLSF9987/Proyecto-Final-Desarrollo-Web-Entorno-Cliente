@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Author: A.N. Author, Illustrator: P. Picture, Category: Books, Price:  £9.24, Length: 784 pages">
+    <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.footer.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.popup.css" />
+
+    <title>Asociación Deportiva CESUR</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/escudoCesur.png" name="logo" id="logo">
+        </div>
+        <div>
+            <img src="../img/titulo.png" name="titulo" id="titulo">
+        </div>
+        <div class="container">
+            <div class="calendar">
+                <div class="pre_info">
+                    <div class="calen_info">
+                        <div id="mesPrev"><img src="../img/calendario.png"></div>
+                        <div id="mes"></div>
+                        <p>-</p>
+                        <div id="anio"></div>
+                        <div id="mesPost"><img src="../img/calendario.png"></div>
+                    </div>
+                </div>
+                <div class="calen_semana">
+                    <div class="calen_item">Lunes</div>
+                    <div class="calen_item">Martes</div>
+                    <div class="calen_item">Miercoles</div>
+                    <div class="calen_item">Jueves</div>
+                    <div class="calen_item">Viernes</div>
+                    <div class="calen_item">Sabado</div>
+                    <div class="calen_item">Domingo</div>
+                </div>
+            </div>
+            <div class="calen_fecha" id="dias">
+            </div>
+        </div>
+
+        <script src="../js/calendario.js"></script>
+    </header>
+    <nav class="navSuperior">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="utilidades.html">UTILIDADES</a></li>
+            <li><a href="#">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <aside class="asideL">
+            <ul>
+                <a href="categoria.html">
+                    <li>Categoría</li>
+                </a>
+                <a href="fcmax.html">
+                    <li>FCmax</li>
+                </a>
+                <a href="horario.html">
+                    <li>Horario</li>
+                </a>
+                <a href="imc.html">
+                    <li>IMC</li>
+                </a>
+                <a href="pinturitas.html">
+                    <li>Juego Pinturitas</li>
+                </a>
+            </ul>
+        </aside>
+        <section>
+            <input type="checkbox" id="cerrar">
+            <label for="cerrar" id="btn-cerrar">X</label>
+            <div class="popup">
+                <div class="mensaje">
+                    <img src="../img/titulo.png" name="titulo" id="titulo">
+                    <img src="../img/escudo-popup.png">
+                </div>
+            </div>
+            <div class="h2">
+                <h2><i>Contacta con Conotros</i></h2>
+            </div>
+            <form>
+                <fieldset>
+
+                    <legend>FORMULARIO DE CONTACTO</legend>
+
+                    <div>
+
+                        <label for="nombre">Nombre</label><br>
+
+                        <input type="text" class="nombre" name="nombre"><br><br><hr>
+
+
+
+                        <label for="apellidos">Apellidos</label><br>
+
+                        <input type="text" class="apellidos" name="apellidos"><br><br><hr>
+
+
+
+                        <label for="Telefono">Teléfono:</label><input type="text" name="telefono" id="telefono"
+                            placeholder="Indica un telefono de contacto"><br><br><hr>
+
+                        <label for="Email"></label>E-mail:<input type="text" name="email" id="email"
+                            placeholder="Indica un email de contacto"><br><br>
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Opciones del registro</legend>
+
+                    <div>
+
+                        <label for="Contenido">Opciones de Contenido:</label>
+                        <select name="selected" name="contenido" id="contenido">
+                            <option value="" selected="selected"> Elige qué contenido se adecúa a tu comunicado</option>
+                            <option value="op1">1 Sugerencia</option>
+                            <option value="op2">2 Ampliación de Contenidos</option>
+                            <option value="op3">2 Modificación de Contenidos</option>
+                            <option value="op4">3 Quejas</option>
+                        </select><br><br><hr>
+
+
+                        <label for="Fecha">CLick aquí...Sobre el calendario...Podrás indicarnos la fecha de
+                            Entrada:</label><br><br>
+                        <div class="fecha"><input type="date" name="Fecha" id="Fecha"></div>
+                </fieldset>
+                <fieldset>
+                    <label for="comentarios" id="comentario">
+                        Comentarios:
+                    </label><br>
+
+                    <textarea name="comentarios"
+                        placeholder="Deja aquí tu comentario y estaremos encantados de responderte lo antes posible. Puedes estirar el recuadro pinchando y arrastrando sobre la esquina derecha inferior del recuadro"
+                        id="comentarios" rows="10" columns="40"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <div class="art10"> <label for="Enviar"></label><input type="submit" name="submit" id="submit">
+
+                </fieldset>
+            </form>
+
+        </section>
+
+        <aside class="asideR">
+
+        </aside>
+
+    </main>
+    <footer>
+        <nav class="navFooter">
+            <ul>
+                <li>ASOCIACION DEPORTIVA CESUR</li>               
+                    <ul class="ul">
+                        <li>DESARROLLADORES:
+                        <li>ANGEL LUIS SAORIN FAURA</li>
+                        <li>FERNANDO CARRASCO MATEOS</li>
+                    </ul>
+                </li>
+                <li><a href="aviso.html">AVISO LEGAL</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

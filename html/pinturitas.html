@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/style.pinturitas.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.popup.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css" />
+    <title>Asociación Deportiva CESUR</title>
+
+    <script defer src="../js/pinturitas.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/escudoCesur.png" name="logo" id="logo">
+        </div>
+        <div>
+            <img src="../img/titulo.png" name="titulo" id="titulo">
+        </div>
+        <div class="container">
+            <div class="calendar">
+                <div class="pre_info">
+                    <div class="calen_info">
+                        <div id="mesPrev"><img src="../img/calendario.png"></div>
+                        <div id="mes"></div>
+                        <p>-</p>
+                        <div id="anio"></div>
+                        <div id="mesPost"><img src="../img/calendario.png"></div>
+                    </div>
+                </div>
+                <div class="calen_semana">
+                    <div class="calen_item">Lunes</div>
+                    <div class="calen_item">Martes</div>
+                    <div class="calen_item">Miercoles</div>
+                    <div class="calen_item">Jueves</div>
+                    <div class="calen_item">Viernes</div>
+                    <div class="calen_item">Sabado</div>
+                    <div class="calen_item">Domingo</div>
+                </div>
+            </div>
+            <div class="calen_fecha" id="dias">
+            </div>
+        </div>
+
+        <script src="../js/calendario.js"></script>
+    </header>
+    <nav class="navSuperior">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="utilidades.html">UTILIDADES</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <input type="checkbox" id="cerrar">
+        <label for="cerrar" id="btn-cerrar">X</label>
+        <div class="popup">
+            <div class="mensaje">
+                <img src="../img/titulo.png" name="titulo" id="titulo">
+                <img src="../img/escudo-popup.png">
+            </div>
+        </div>
+        <aside class="asideL">
+            <ul>
+                <a href="categoria.html">
+                    <li>Categoría</li>
+                </a>
+                <a href="fcmax.html">
+                    <li>FCmax</li>
+                </a>
+                <a href="horario.html">
+                    <li>Horario</li>
+                </a>
+                <a href="imc.html">
+                    <li>IMC</li>
+                </a>
+                <a href="pinturitas.html">
+                    <li>Juego Pinturitas</li>
+                </a>
+            </ul>
+        </aside>
+        <section>
+            <h1>PINTURITAS</h1>
+            <nav class="nav">
+                <button id="btnAzul" class="azul"></button>
+                <button id="btnRojo" class="rojo"></button>
+                <button id="btnVerde" class="verde"></button>
+                <button id="btnAmari" class="amari"></button>
+                <button id="btnBlanc" class="blanc"></button>
+            </nav>
+            <a href="index.html"><input name="inicio" id="inicio" class="btn" type="button"
+                value="Regresar al Inicio..."></a>
+        </section>
+        <aside class="asideR">
+
+        </aside>
+    </main>
+
+    <footer>
+        <nav class="navFooter">
+            <ul>
+                <li>ASOCIACION DEPORTIVA CESUR</li>               
+                    <ul class="ul">
+                        <li>DESARROLLADORES:
+                        <li>ANGEL LUIS SAORIN FAURA</li>
+                        <li>FERNANDO CARRASCO MATEOS</li>
+                    </ul>
+                </li>
+                <li><a href="aviso.html">AVISO LEGAL</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

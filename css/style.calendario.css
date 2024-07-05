@@ -1,0 +1,78 @@
+.container{
+    margin: 0;
+    padding: auto;
+    width: 200px;
+    height: 100%;
+    font-size: 0.5em;
+  }
+  
+  .calendar {
+    background-color: blanchedalmond;
+    width: auto;
+    margin: 1px;
+    font-size: 1em;
+  }
+  
+  .pre_info{
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .calen_info {
+    display: flex;
+    width: auto;
+    margin: 0px;
+    align-items: center;
+    padding: 0 2em;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer; 
+  }
+  
+  .calen_info img{
+    margin: auto;
+    width: auto;
+  }
+  
+  .calen_semana{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .calen_fecha{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 1em;
+    margin: auto;
+  }
+  
+  .calen_item {
+    line-height: 2;
+    margin: auto;
+    font-size:1em;
+  }
+  
+  .calen_item:hover{
+    background: lightblue;
+    color:antiquewhite;
+    border-radius: 70%;
+    margin: auto;
+    cursor: pointer; 
+  }
+  
+  .otro{
+  
+    width: 50%;
+    border-radius: 70%;
+    background-color: darkgray;
+  }
+  
+  
+  #mes{
+    margin: auto;
+    padding: 0px;
+  }
+  #anio{
+    margin: auto;
+    padding: 0px;
+  }

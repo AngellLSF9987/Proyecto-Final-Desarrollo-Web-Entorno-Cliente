@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.popupAviso.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.calendario.css" />
+    <title>Asociación Deportiva CESUR</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../img/escudoCesur.png" name="logo" id="logo">
+        </div>
+        <div>
+            <img src="../img/titulo.png" name="titulo" id="titulo">
+        </div>
+        <div class="container">
+            <div class="calendar">
+                <div class="pre_info">
+                    <div class="calen_info">
+                        <div id="mesPrev"><img src="../img/calendario.png"></div>
+                        <div id="mes"></div>
+                        <p>-</p>
+                        <div id="anio"></div>
+                        <div id="mesPost"><img src="../img/calendario.png"></div>
+                    </div>
+                </div>
+                <div class="calen_semana">
+                    <div class="calen_item">Lunes</div>
+                    <div class="calen_item">Martes</div>
+                    <div class="calen_item">Miercoles</div>
+                    <div class="calen_item">Jueves</div>
+                    <div class="calen_item">Viernes</div>
+                    <div class="calen_item">Sabado</div>
+                    <div class="calen_item">Domingo</div>
+                </div>
+            </div>
+            <div class="calen_fecha" id="dias">
+            </div>
+        </div>
+
+        <script src="../js/calendario.js"></script>
+    </header>
+    <nav class="navSuperior">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#">UTILIDADES</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <aside class="asideL">
+            <ul>
+                <a href="categoria.html">
+                    <li>Categoría</li>
+                </a>
+                <a href="fcmax.html">
+                    <li>FCmax</li>
+                </a>
+                <a href="horario.html">
+                    <li>Horario</li>
+                </a>
+                <a href="imc.html">
+                    <li>IMC</li>
+                </a>
+                <a href="pinturitas.html">
+                    <li>Juego Pinturitas</li>
+                </a>
+            </ul>
+        </aside>
+        <section>
+            <input type="checkbox" id="cerrar">
+            <label for="cerrar" id="btn-cerrar">X</label>
+            <div class="popup">
+                <div class="mensaje">
+                    <img src="../img/titulo.png" name="titulo" id="titulo">
+                    <img src="../img/escudo-popup.png">
+                </div>
+            </div>
+            <h3>Aviso legal y condiciones generales de uso</h3>
+            <p>El aviso legal y las condiciones generales de uso, o términos y condiciones de uso, está pensado para
+                todos aquellos que van a crear una página o sitio web. Este documento está adaptado al Reglamento
+                Europeo de Protección de Datos (RGPD) y a la reciente Ley Orgánica 3/2018, de 5 de diciembre, de
+                Protección de Datos Personales y garantía de los derechos digitales.</p>
+
+            <p>Este documento contiene, de forma general, un conjunto de menciones o referencias legales que servirán
+                para regular las condiciones en las que los usuarios de Internet acceden, navegan y utilizan el sitio o
+                página web. También comprende los derechos, obligaciones y responsabilidades a los que las partes quedan
+                sometidas recíprocamente durante el acceso, navegación y uso del sitio web.</p>
+
+            <p>La inclusión de un aviso legal y condiciones generales de uso aporta un gran nivel de confianza y
+                seguridad jurídica a todos y cada uno de los sitios web presentes en Internet.</p>
+
+            <p>También existe otro conjunto de menciones legales —condiciones generales de venta— que, a veces, se
+                presentan de forma conjunta con el aviso legal y las condiciones generales de uso, pero no deben
+                confundirse el uno con el otro, pues su contenido difiere. Así, mientras el aviso legal regula las
+                condiciones en las que los usuarios de Internet acceden navegan y utilizan el sitio web, las condiciones
+                generales de venta regulan las condiciones en las que se realizan los pedidos o solicitudes de compra en
+                el sitio web, y establecen los derechos, obligaciones y responsabilidades que corresponden a cada parte
+                de dicha compraventa.</p>
+
+            <p>Por otra parte, si solo se desea elaborar un documento que contenga las normas acerca de cómo se recogen
+                y gestionan los datos personales de los usuarios de una página o sitio web, así como acerca de las
+                cookies utilizadas por el mismo, se utiliza la política de privacidad de un sitio web.</p>
+
+
+            <h5>¿Cómo utilizar este documento?</h5>
+
+            <p>La primera parte del documento es fundamental, ya que recoge los elementos identificativos del titular,
+                que la Ley exige que sean accesibles de forma permanente, fácil, directa y gratuita para todos los
+                Usuarios. Entre ellos se encuentran los datos de contacto del titular (la dirección, y el correo
+                electrónico son especialmente importantes) y, en caso de tratarse de una persona jurídica, el NIF
+                (antiguamente conocido con CIF) y los datos registrales del Registro donde se encuentre inscrita. Por
+                tanto, antes de empezar es importante verificar estas informaciones.</p>
+
+            <p>Además, se ha de tener en cuenta que si el contenido, información o servicio sobre el que versa el sitio
+                web se refiere a una actividad del titular y ésta requiere autorización administrativa previa o está
+                regulada, también deberá proveer información complementaria relativa a la misma.</p>
+
+            <p>Más allá de este contenido de obligatorio cumplimiento, el resto se irá adaptando en función de las
+                necesidades del titular y las características del sitio web. Así, el mismo contendrá, entre otras,
+                informaciones relativas a:</p>
+            <ul>
+                <li>la política de privacidad y protección de datos del sitio web;</li>
+                <li>la política de cookies, en caso de que en el sitio web se encuentren cookies (propias o de
+                    terceros);</li>
+                <li>la política de enlaces del sitio web; y</li>
+                <li>cuestiones relativas a la propiedad intelectual e industrial del sitio web;</li>
+            </ul>
+            <p>Asimismo, se considera que el usuario acepta este aviso legal y las condiciones generales de uso a través
+                del acceso, navegación y uso del sitio web.</p>
+
+            <p>Teniendo en cuenta esto último y, especialmente, en aquellos casos en los que exista la tecnología de
+                cookies, es útil prever un método que llame la atención del usuario inmediatamente al acceder al Sitio
+                Web, por ejemplo, con una ventana emergente nada más acceder y que da la opción de aceptar y/o consultar
+                el aviso legal y las condiciones generales de uso.</p>
+
+
+            <h5>Legislación aplicable</h5>
+
+            <p>El aviso legal y las condiciones generales de uso se rigen por las siguientes normas:</p>
+
+            <p>la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico
+                (LSSI-CE) (particularmente, su artículo 10);
+                el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la
+                protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre
+                circulación de estos datos; y
+                la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos
+                digitales; y
+                el Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la
+                Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.</p>
+
+            <h4>Ayuda de un abogado</h4>
+
+            <p>También tienes la opción de consultar a un abogado si necesitas ayuda.</p>
+
+            <p>El abogado puede contestar a tus preguntas o ayudarte en tus trámites. Al final de la creación del
+                documento, se te ofrecerá esta opción.</p>
+
+
+            <h5>¿Cómo modificar el modelo?</h5>
+
+            <p>Rellenas un formulario. El documento se va redactando ante tus ojos, en función de tus respuestas.</p>
+            <p>Al finalizar, lo recibirás gratuitamente en los formatos Word y PDF. Puedes modificarlo y volver a
+                utilizarlo.</p>
+        </section>
+        <aside class="asideR">
+
+        </aside>
+    </main>
+    <footer>
+        <nav class="navFooter">
+            <ul>
+                <li>ASOCIACION DEPORTIVA CESUR</li>               
+                    <ul class="ul">
+                        <li>DESARROLLADORES:
+                        <li>ANGEL LUIS SAORIN FAURA</li>
+                        <li>FERNANDO CARRASCO MATEOS</li>
+                    </ul>
+                </li>
+                <li><a href="aviso.html">AVISO LEGAL</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
